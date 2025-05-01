@@ -1,13 +1,11 @@
-# Wofi configuration file
+# ~/.config/wofi/config
 
-# Appearance
-width = 600
-height = 300
-prompt = 
-show = drun        # Options: run, drun, combi
-insensitive = true # Case-insensitive search
-allow_markup = true
+show = drun
+width = 500
+height = 400
+location = bottom
+prompt = Aphos
+allow_markup = false
+insensitive = true
+term = foot
 
-# Theme (CSS styling)
-mode = run
-location = center
