@@ -1,24 +1,24 @@
 @define-color black #000000;
 @define-color white #ffffff;
 @define-color blue #00869b;
-@define-color red #f50538;
+@define-color red #ff2700;
 @define-color yellow #fffd8c;
-@define-color green #6effb9;
+@define-color green #a1ff2e;
 
-@define-color active @blue;
+@define-color active @red;
 @define-color alert @yellow;
 @define-color warning @red;
 @define-color good @green;
 
-@define-color fallback-color @blue;
+@define-color fallback-color @white;
 
-@define-color clock-color @white;
-@define-color custom-text-color @white;
+@define-color clock-color @red;
+@define-color custom-text-color @red;
 
-@define-color workspaces-active-color @blue;
-@define-color workspaces-urgent-color @red;
+@define-color workspaces-active-color @red;
+@define-color workspaces-urgent-color @yellow;
 
-@define-color waybar-background @black;
+@define-color waybar-background @nothing;
 @define-color top-waybar-border-bottom-color @blue;
 @define-color top-waybar-border-top-color @blue;
 @define-color bottom-waybar-border-top-color @blue;

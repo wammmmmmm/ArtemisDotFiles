@@ -1,11 +1,14 @@
-@define-color blue #00869b;
+@define-color orange #ff2700;
 @define-color black #000000;
 @define-color green #6effb9;
 
+@define-color accent @orange;
+@define-color background @nothing;
+
 #window {
 margin: 2px;
-border: 0px solid @blue;
-background-color: @black;
+border: 0px solid @accent;
+background-color: @background;
 }
 
 #input {
@@ -13,32 +16,35 @@ margin: 5px;
 border: 2px solid @white;
 }
 
-#inner-box {
-margin: 2px;
-border: 0px solid @blue;
-background-color: @black;
-}
-
 #outer-box {
 margin: 0px;
-border: 0px solid @blue;
+border: 0px solid @accent;
+background-color: @background;
 }
 
 #scroll {
-margin: 2px;
-border: 0px solid @blue;
-background-color: @black;
+margin: 0px;
+border: 0px solid @accent;
+background-color: @background;
 }
 
 #text {
-margin: 2px;
-border: 0px solid @blue;
-} 
-
-#entry:selected{
-margin: 5px;
-border: 2px solid @blue;
-border-radius: 5px;
-background-color: @black;
+margin: 0px;
+border: 0px solid @accent;
 }
 
+#inner-box {
+margin: 10px;
+border: 2px solid @black;
+border-radius: 5px;
+background-color: @black;
+padding: 10px;
+opacity: .8;
+}
+
+#entry:selected{
+margin: 0px;
+border: 2px solid @accent;
+border-radius: 5px;
+background-color: @background;
+}
