@@ -10,5 +10,13 @@ Computers have the capacity for love.
 
 ## Dependencies 
 
-Iosevka Nerd Font
-Battery 
+Iosevka Nerd Font 
+mako
+hyprpaper
+hyprlock
+hypridle
+nnn
+nemo
+nchat
+viu
+btop
