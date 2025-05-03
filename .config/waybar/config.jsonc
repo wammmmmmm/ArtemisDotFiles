@@ -141,7 +141,7 @@
 },
 
 "backlight": {
-        "format": "{icon} {percent}%",
+        "format": "{percent}% {icon}",
         "format-icons": ["󰃞 ", "󰃟 ", "󰃠 "],
         "on-scroll-up": "brightnessctl set +5%",
         "on-scroll-down": "brightnessctl set 5%-"
@@ -235,7 +235,7 @@
 },
 
 "backlight": {
-        "format": "{icon} {percent}% ",
+        "format": "{percent}% {icon} ",
         "format-icons": ["󰃞 ", "󰃟 ", "󰃠 "],
         "on-scroll-up": "brightnessctl set +5%",
         "on-scroll-down": "brightnessctl set 5%-"
