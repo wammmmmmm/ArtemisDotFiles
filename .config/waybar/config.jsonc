@@ -151,9 +151,11 @@
         "format-wifi": "{signalStrength}%  󰖩 ",
         "format-ethernet": "{ifname}  󰈀 ",
         "format-linked": "{ifname} (No IP)  󰈀 ",
-        "format-disconnected": "󰖪 ",
+        "format-disconnected": "off 󰖪 ",
         "tooltip-format": "{ifname}: {ipaddr}",
-        "on-click": "kitty -e nmtui"
+        "on-click": "kitty -e nmtui",
+	"on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
+
 },
 
 "bluetooth": {
