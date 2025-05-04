@@ -20,3 +20,13 @@ Computers have the capacity for love.
 + nchat
 + viu
 + btop
+
+## Post install tweaks
+
+Create the directory ```/etc/systemd/sleep.conf.d/``` and add the file ```mem-deep.conf``` with this inside: 
+
+```bash
+[Sleep]
+MemorySleepMode=deep
+```
+This will stop battery draining while laptop lid is closed
